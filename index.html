@@ -1,8 +1,18 @@
 <html>
   <head>
     <title>Electron App!</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
+  <body>
 
-  <h1>Hello Electron!</h1>
+  <h1>
+    You are running Electron Version: <br />
+    <span id="version"></span>
+  </h1>
+
+  <script>
+    require('./renderer.js');
+  </script>
   
+</body>
 </html>
